@@ -1,3 +1,6 @@
+<img width="1342" height="606" alt="image" src="https://github.com/user-attachments/assets/ca95d64a-f58a-4bcb-a7b6-d5f6fa5c09f0" />
+
+
 # 📝 DevNotes
 
 Um app simples para criar, editar e organizar suas notas direto no navegador.
