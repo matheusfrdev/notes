@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>DevNotes PRO</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div class="sidebar">
+    <h2>DevNotes</h2>
+
+    <button onclick="createNote()">+ Nova Nota</button>
+    <button onclick="exportNotes()">Exportar</button>
+
+    <input type="text" id="search" placeholder="Buscar...">
+
+    <div id="notesList"></div>
+  </div>
+
+  <div class="editor">
+    <div class="top">
+      <input id="title" placeholder="Título da nota..." />
+      <div>
+        <button onclick="saveCurrentNote()">💾</button>
+        <button onclick="toggleTheme()">🌙</button>
+      </div>
+    </div>
+
+    <span id="status"></span>
+
+    <textarea id="editor" placeholder="Escreva sua nota..."></textarea>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
